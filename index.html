@@ -6,7 +6,7 @@
     <title>December 2024</title>
     <style>
       canvas {
-        background-color: #bbb;
+        background-color: #a49f9f;
         margin: 3px;
         border-radius: 20px;
         color: black;
@@ -23,6 +23,8 @@
     <script src="items/bell.js"></script>
     <script src="items/snowBall.js"></script>
     <script src="items/candle.js"></script>
+    <script src="items/glove.js"></script>
+    <script src="items/candy.js"></script>
     
     <script>
       const cellSize = 200;
@@ -36,6 +38,8 @@
       drawItemFunction[6] = drawBell;
       drawItemFunction[7] = drawSnowBall;
       drawItemFunction[8] = drawCandle;
+      drawItemFunction[9] = drawGlove;
+      drawItemFunction[10] = drawCandy;
 
       for (let day = 1; day <= 24; day++) {
         const canvas = document.createElement("canvas");
