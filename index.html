@@ -29,7 +29,8 @@
     <script src="items/sledges.js"></script>
     <script src="items/tree.js"></script>
     <script src="items/hat.js"></script>
-    
+    <script src="items/calender.js"></script>
+    <script src="items/present.js"></script>
     <script>
       const cellSize = 200;
 
@@ -48,6 +49,8 @@
       drawItemFunction[12] = drawSledge;
       drawItemFunction[13] = drawTree;
       drawItemFunction[14] = drawHat;
+      drawItemFunction[15] = drawCalender;
+      drawItemFunction[16] = drawPresent;
 
       for (let day = 1; day <= 24; day++) {
         const canvas = document.createElement("canvas");
