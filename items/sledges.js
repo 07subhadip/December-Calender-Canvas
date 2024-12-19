@@ -18,7 +18,7 @@ function drawSledge(ctx,x,y,size,hue){
     };
 
     ctx.beginPath();
-    ctx.strokeStyle = color.normal(hue);
+    ctx.strokeStyle = color.dark(hue);
     ctx.lineWidth = base.thickness;
     ctx.arc(arc.x,arc.y,arc.radius, -Math.PI/2 ,Math.PI/2);
     ctx.lineTo(left,base.bottom)
