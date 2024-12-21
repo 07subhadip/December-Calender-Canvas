@@ -37,6 +37,7 @@
     <script src="items/cookie.js"></script>
     <script src="items/globe.js"></script>
     <script src="items/bells.js"></script>
+    <script src="items/snowMan.js"></script>
     <script>
       const cellSize = 200;
 
@@ -58,8 +59,9 @@
       drawItemFunction[15] = drawCalender;
       drawItemFunction[16] = drawPresent;
       drawItemFunction[17] = drawCookie;
-      drawItemFunction[18] = drawGlobe
-      drawItemFunction[19] = drawBells
+      drawItemFunction[18] = drawGlobe;
+      drawItemFunction[19] = drawBells;
+      drawItemFunction[20] = drawSnowMan;
 
       for (let day = 1; day <= 24; day++) {
         const canvas = document.createElement("canvas");
