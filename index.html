@@ -9,8 +9,9 @@
         background-color: #000837;
       }
       canvas {
-        background-color: #a49f9f;
-        margin: 3px;
+        background-color: #837b7b;
+        display: inline-block;
+        margin: 5px;
         border-radius: 20px;
         color: black;
       }
@@ -39,6 +40,7 @@
     <script src="items/bells.js"></script>
     <script src="items/snowMan.js"></script>
     <script src="items/crown.js"></script>
+    <script src="items/skate.js"></script>
     <script>
       const cellSize = 200;
 
@@ -64,6 +66,7 @@
       drawItemFunction[19] = drawBells;
       drawItemFunction[20] = drawSnowMan;
       drawItemFunction[21] = drawCrown;
+      drawItemFunction[22] = drawSkate
 
       for (let day = 1; day <= 24; day++) {
         const canvas = document.createElement("canvas");
