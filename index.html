@@ -41,6 +41,7 @@
     <script src="items/snowMan.js"></script>
     <script src="items/crown.js"></script>
     <script src="items/skate.js"></script>
+    <script src="items/reinDeer.js"></script>
     <script>
       const cellSize = 200;
 
@@ -67,6 +68,8 @@
       drawItemFunction[20] = drawSnowMan;
       drawItemFunction[21] = drawCrown;
       drawItemFunction[22] = drawSkate
+      drawItemFunction[23] = drawReinDeer;
+
 
       for (let day = 1; day <= 24; day++) {
         const canvas = document.createElement("canvas");
